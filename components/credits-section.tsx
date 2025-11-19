@@ -58,24 +58,6 @@ export default function CreditsSection() {
         )`
       }} />
 
-      {/* Decorative elements */}
-      <div 
-        className="absolute top-10 left-10 w-16 h-32 opacity-20"
-        style={{
-          transform: `translate(${mousePosition.x * 0.3}px, ${mousePosition.y * 0.3}px)`
-        }}
-      >
-        <img src="/retro-8-bit-pixel-art-jungle-leaves-vine-hanging.jpg" alt="" className="w-full h-full pixelated" />
-      </div>
-      <div 
-        className="absolute bottom-10 right-10 w-16 h-32 opacity-20"
-        style={{
-          transform: `translate(${-mousePosition.x * 0.3}px, ${-mousePosition.y * 0.3}px) scale-x-[-1]`
-        }}
-      >
-        <img src="/retro-8-bit-pixel-art-jungle-leaves-vine-hanging.jpg" alt="" className="w-full h-full pixelated" />
-      </div>
-
       <div className="container mx-auto px-4 relative z-10">
         {/* Title */}
         <div className="text-center mb-16 animate-fadeInDown">

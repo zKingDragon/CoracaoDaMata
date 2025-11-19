@@ -92,25 +92,7 @@ export default function DashboardPage() {
         </div>
       ))}
 
-      <div 
-        className="absolute top-0 left-10 w-16 h-32 opacity-30 transition-transform duration-300 ease-out animate-swing"
-        style={{
-          transform: `translate(${mousePosition.x * 0.2}px, ${mousePosition.y * 0.2}px)`,
-          transformOrigin: 'top center'
-        }}
-      >
-        <img src="/retro-8-bit-pixel-art-jungle-leaves-vine-hanging.jpg" alt="" className="w-full h-full pixelated" />
-      </div>
-      <div 
-        className="absolute top-0 right-10 w-16 h-32 opacity-30 transition-transform duration-300 ease-out animate-swing"
-        style={{
-          transform: `translate(${-mousePosition.x * 0.2}px, ${mousePosition.y * 0.2}px) scale-x-[-1]`,
-          transformOrigin: 'top center',
-          animationDelay: '0.5s'
-        }}
-      >
-        <img src="/retro-8-bit-pixel-art-jungle-leaves-vine-hanging.jpg" alt="" className="w-full h-full pixelated" />
-      </div>
+
 
 
       <nav className="relative z-10 bg-[#3b2618] border-b-4 border-[#1f6032] px-6 py-4">

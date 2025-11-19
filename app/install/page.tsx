@@ -85,25 +85,6 @@ export default function InstallPage() {
         </div>
       ))}
 
-      <div 
-        className="absolute top-0 left-10 w-20 h-40 opacity-30 transition-transform duration-300 ease-out animate-swing"
-        style={{
-          transform: `translate(${mousePosition.x * 0.3}px, ${mousePosition.y * 0.3}px)`,
-          transformOrigin: 'top center'
-        }}
-      >
-        <img src="/retro-8-bit-pixel-art-jungle-leaves-vine-hanging.jpg" alt="" className="w-full h-full pixelated" />
-      </div>
-      <div 
-        className="absolute top-0 right-10 w-20 h-40 opacity-30 transition-transform duration-300 ease-out animate-swing"
-        style={{
-          transform: `translate(${-mousePosition.x * 0.3}px, ${mousePosition.y * 0.3}px) scale-x-[-1]`,
-          transformOrigin: 'top center',
-          animationDelay: '0.5s'
-        }}
-      >
-        <img src="/retro-8-bit-pixel-art-jungle-leaves-vine-hanging.jpg" alt="" className="w-full h-full pixelated" />
-      </div>
 
       {/* Main content */}
       <div className="relative z-10 container mx-auto px-4 py-12">

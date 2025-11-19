@@ -115,14 +115,14 @@ export default function HowToPlaySection() {
         </div>
 
         {/* Controls info */}
-        <div className="max-w-4xl mx-auto mt-12">
-          <div className="bg-[#3b2618] border-8 border-[#2c1810] p-8" style={{
+        <div className="max-w-4xl mx-auto mt-12 ">
+          <div className="bg-[#3b2618] border-8 border-[#2c1810] p-8 " style={{
             boxShadow: '8px 8px 0 0 rgba(44,24,16,0.8)'
           }}>
             <h3 className="font-['Press_Start_2P'] text-[#ffe29a] text-sm sm:text-base text-center mb-6">
               🎮 CONTROLES BÁSICOS
             </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-2 gap-6">
               {[
                 { key: 'W A S D', action: 'MOVER' },
                 { key: 'SPACE', action: 'INTERAGIR' },
