@@ -138,9 +138,14 @@ export default function InstallPage() {
                   <p className="font-['VT323'] text-[#32936f] text-lg mb-6">
                     Windows 10 ou superior
                   </p>
-                  <button className="w-full font-['Press_Start_2P'] bg-[#d14728] hover:bg-[#32936f] text-[#ffe29a] px-6 py-3 text-xs border-4 border-[#1f6032] shadow-[4px_4px_0_0_rgba(31,96,50,1)] hover:shadow-[2px_2px_0_0_rgba(31,96,50,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all active:scale-95 cursor-pointer">
-                    BAIXAR
-                  </button>
+                  <a 
+                    href="/downloads/CoracaoDaMata-Windows.zip" 
+                    download="CoracaoDaMata-Windows.zip"
+                  >
+                    <button className="w-full font-['Press_Start_2P'] bg-[#d14728] hover:bg-[#32936f] text-[#ffe29a] px-6 py-3 text-xs border-4 border-[#1f6032] shadow-[4px_4px_0_0_rgba(31,96,50,1)] hover:shadow-[2px_2px_0_0_rgba(31,96,50,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all active:scale-95 cursor-pointer">
+                      BAIXAR
+                    </button>
+                  </a>
                 </div>
 
                 {/* Mac */}
@@ -152,9 +157,14 @@ export default function InstallPage() {
                   <p className="font-['VT323'] text-[#32936f] text-lg mb-6">
                     macOS 11 ou superior
                   </p>
-                  <button className="w-full font-['Press_Start_2P'] bg-[#d14728] hover:bg-[#32936f] text-[#ffe29a] px-6 py-3 text-xs border-4 border-[#1f6032] shadow-[4px_4px_0_0_rgba(31,96,50,1)] hover:shadow-[2px_2px_0_0_rgba(31,96,50,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all active:scale-95 cursor-pointer">
-                    BAIXAR
-                  </button>
+                  <a 
+                    href="/downloads/CoracaoDaMata-MacOS.zip" 
+                    download="CoracaoDaMata-MacOS.zip"
+                  >
+                    <button className="w-full font-['Press_Start_2P'] bg-[#d14728] hover:bg-[#32936f] text-[#ffe29a] px-6 py-3 text-xs border-4 border-[#1f6032] shadow-[4px_4px_0_0_rgba(31,96,50,1)] hover:shadow-[2px_2px_0_0_rgba(31,96,50,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all active:scale-95 cursor-pointer">
+                      BAIXAR
+                    </button>
+                  </a>
                 </div>
 
                 {/* Linux */}
@@ -166,9 +176,14 @@ export default function InstallPage() {
                   <p className="font-['VT323'] text-[#32936f] text-lg mb-6">
                     Ubuntu 20.04 ou superior
                   </p>
-                  <button className="w-full font-['Press_Start_2P'] bg-[#d14728] hover:bg-[#32936f] text-[#ffe29a] px-6 py-3 text-xs border-4 border-[#1f6032] shadow-[4px_4px_0_0_rgba(31,96,50,1)] hover:shadow-[2px_2px_0_0_rgba(31,96,50,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all active:scale-95 cursor-pointer">
-                    BAIXAR
-                  </button>
+                  <a 
+                    href="/downloads/CoracaoDaMata-Linux.zip" 
+                    download="CoracaoDaMata-Linux.zip"
+                  >
+                    <button className="w-full font-['Press_Start_2P'] bg-[#d14728] hover:bg-[#32936f] text-[#ffe29a] px-6 py-3 text-xs border-4 border-[#1f6032] shadow-[4px_4px_0_0_rgba(31,96,50,1)] hover:shadow-[2px_2px_0_0_rgba(31,96,50,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all active:scale-95 cursor-pointer">
+                      BAIXAR
+                    </button>
+                  </a>
                 </div>
               </div>
 

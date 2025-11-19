@@ -16,7 +16,7 @@ export default function CharactersSection() {
       description: 'Inteligente e cauteloso, prefere planejar cada movimento. Mestre em resolver puzzles.',
       color: '#32936f',
       bgColor: '#2c1810',
-      image: '/aventureiraFrente.gif'
+      image: '/aventureiroVelho.gif'
     },
     {
       name: 'CHEFE DA EMPRESA',
@@ -24,7 +24,7 @@ export default function CharactersSection() {
       description: 'Misterioso líder da expedição. Será que suas intenções são realmente nobres?',
       color: '#ffe29a',
       bgColor: '#3b2618',
-      image: '/aventureiraFrente.gif'
+      image: '/chefe.gif'
     },
     {
       name: 'CURUPIRA',

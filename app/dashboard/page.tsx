@@ -112,10 +112,18 @@ export default function DashboardPage() {
         <img src="/retro-8-bit-pixel-art-jungle-leaves-vine-hanging.jpg" alt="" className="w-full h-full pixelated" />
       </div>
 
+
       <nav className="relative z-10 bg-[#3b2618] border-b-4 border-[#1f6032] px-6 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <Link href="/" className="font-['Press_Start_2P'] text-sm md:text-xl text-[#ffe29a] hover:text-[#d14728] transition-colors">
-            CORAÇÃO DA MATA
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity">
+            <img 
+              src="/logo-game.png" 
+              alt="Logo" 
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 pixelated"
+            />
+            <div className="font-['Press_Start_2P'] text-[#ffe29a] text-xs sm:text-sm">
+              CORAÇÃO DA MATA
+            </div>
           </Link>
           <div className="flex items-center gap-4 md:gap-6">
             <span className="font-['VT323'] text-lg md:text-xl text-[#ffe29a]">
@@ -258,7 +266,7 @@ export default function DashboardPage() {
               <div className="relative bg-black aspect-video border-4 border-[#1f6032] overflow-hidden">
                 {/* Construct 2/3 Game - O Coração da Mata */}
                 <iframe 
-                  src="/game/index.html" 
+                  src="/game/index-web.html" 
                   className="w-full h-full border-0"
                   title="O Coração da Mata - Jogo"
                   allow="gamepad; keyboard-map *; fullscreen"
@@ -281,7 +289,7 @@ export default function DashboardPage() {
               {/* Game controls info */}
               <div className="mt-4 p-4 bg-[#1f6032] border-2 border-[#32936f]">
                 <p className="font-['VT323'] text-[#ffe29a] text-base md:text-lg text-center">
-                  <span className="font-['Press_Start_2P'] text-xs">CONTROLES:</span> ← ↑ → Mover | ESPAÇO Interagir
+                  <span className="font-['Press_Start_2P'] text-xs">CONTROLES:</span> W A S D - Mover | ESPAÇO - Interagir
                 </p>
               </div>
             </div>

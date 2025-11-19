@@ -4,10 +4,10 @@ import { useState } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const videos = [
-  { id: 1, title: 'Gameplay 1', thumbnail: '/retro-8-bit-jungle-game-gameplay-scene-1.jpg' },
-  { id: 2, title: 'Gameplay 2', thumbnail: '/retro-8-bit-jungle-game-gameplay-scene-2.jpg' },
-  { id: 3, title: 'Gameplay 3', thumbnail: '/retro-8-bit-jungle-game-gameplay-scene-3.jpg' },
-  { id: 4, title: 'Gameplay 4', thumbnail: '/retro-8-bit-jungle-game-gameplay-scene-4.jpg' },
+  { id: 1, title: 'Gameplay 1', thumbnail: '/gameplay1.png' },
+  { id: 2, title: 'Gameplay 2', thumbnail: '/gameplay2.png' },
+  { id: 3, title: 'Gameplay 3', thumbnail: '/gameplay3.png' },
+  { id: 4, title: 'Gameplay 4', thumbnail: '/gameplay4.png' },
 ]
 
 export default function VideoCarousel() {

@@ -6,6 +6,7 @@ import StorySection from '@/components/story-section'
 import CharactersSection from '@/components/characters-section'
 import HowToPlaySection from '@/components/how-to-play-section'
 import MessageSection from '@/components/message-section'
+import CreditsSection from '@/components/credits-section'
 import Footer from '@/components/footer'
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <CharactersSection />
       <HowToPlaySection />
       <MessageSection />
+      <CreditsSection />
       <Footer />
     </main>
   )

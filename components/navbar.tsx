@@ -10,9 +10,16 @@ export default function Navbar() {
     <nav className="relative bg-[#3b2618] border-b-4 border-[#1f6032] shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="font-['Press_Start_2P'] text-[#ffe29a] text-xs sm:text-sm">
-            CORAÇÃO DA MATA
-          </div>
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity">
+            <img 
+              src="/logo-game.png" 
+              alt="Logo" 
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 pixelated"
+            />
+            <div className="font-['Press_Start_2P'] text-[#ffe29a] text-xs sm:text-sm">
+              CORAÇÃO DA MATA
+            </div>
+          </Link>
           <div className="flex gap-3 sm:gap-6 flex-wrap items-center">
             <Link
               href="/#inicio"
@@ -43,6 +50,12 @@ export default function Navbar() {
               className="font-['Press_Start_2P'] text-[#ffe29a] text-[9px] sm:text-xs hover:text-[#d14728] transition-colors"
             >
               Como Jogar
+            </Link>
+            <Link
+              href="/#creditos"
+              className="font-['Press_Start_2P'] text-[#ffe29a] text-[9px] sm:text-xs hover:text-[#d14728] transition-colors"
+            >
+              Créditos
             </Link>
             {isAuthenticated ? (
               <>

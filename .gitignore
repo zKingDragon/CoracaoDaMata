@@ -30,6 +30,10 @@ pnpm-debug.log*
 .env*.local
 .env
 
+# game downloads (arquivos grandes)
+/public/downloads/
+*.zip
+
 # vercel
 .vercel
 
